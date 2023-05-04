@@ -1,0 +1,20 @@
+li {
+  list-style: none;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  padding: 0 1rem;
+  text-align: left;
+  margin: 1rem;
+  transition: all 0.2s linear;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+li:hover {
+  transform: scale(1.15);
+  border-color: yellow;
+  color: yellow;
+  border-radius: 0 25px 0 0;
+}
+
+li:not(:hover) {
+  filter: blur(3px);
+}
